@@ -27,14 +27,19 @@ body{
     position: relative;
     width: 100%;
     list-style: none;
-    border-top: 1px solid;
+    border-top: solid;
 }
 
 #navbar a{
     display: block;
     padding: 15px 30px;
     text-decoration: none;
-    color: #555;
+    color: black;
+}
+
+#navbar a:hover{
+    background-color: black;
+    color: white;
 }
 
 main{
